@@ -124,7 +124,7 @@ class Blog extends Component {
 					<div className="admin-blog-wrapper" key={blogItem.id}>
 						<BlogItem blogItem={blogItem} />
 						<a onClick={() => this.handleDeleteClick(blogItem)}>
-							<FontAwesomeIcon icon="trash" />
+							{/* <FontAwesomeIcon icon="trash" /> */}
 						</a>
 					</div>
 				);
@@ -146,7 +146,7 @@ class Blog extends Component {
 				{this.props.loggedInStatus === "LOGGED_IN" ? (
 					<div className="new-blog-link">
 						<a onClick={this.handleNewBlogClick}>
-							<FontAwesomeIcon icon="plus-circle" />
+							{/* <FontAwesomeIcon icon="plus-circle" /> */}
 						</a>
 					</div>
 				) : null}
@@ -155,7 +155,7 @@ class Blog extends Component {
 
 				{this.state.isLoading ? (
 					<div className="content-loader">
-						<FontAwesomeIcon icon="spinner" spin />
+						{/* <FontAwesomeIcon icon="spinner" spin /> */}
 					</div>
 				) : null}
 			</div>

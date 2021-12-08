@@ -16,13 +16,13 @@ import PortfolioManager from "./Pages/portfolio-manager.js";
 import PortfolioDetail from "./components/Portfolio/portfolio-detail.js";
 import Auth from "./Pages/auth.js";
 import NoMatch from "./Pages/no-match.js";
-import Icons from "../helpers/icons.js";
+// import Icons from "./helpers/icons.js";
 
 export default class App extends Component {
 	constructor(props) {
 		super(props);
 
-		Icons();
+		// Icons();
 
 		this.state = {
 			loggedInStatus: "NOT_LOGGED_IN",

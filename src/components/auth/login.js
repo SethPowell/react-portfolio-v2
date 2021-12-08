@@ -62,7 +62,7 @@ export default class Login extends Component {
 
                 <form onSubmit={this.handleSubmit} className="auth-form-wrapper"> 
                 <div className="form-group">
-                <FontAwesomeIcon icon="envelope" />
+                {/* <FontAwesomeIcon icon="envelope" /> */}
                     <input 
                     type="text" 
                     name="email"
@@ -73,7 +73,7 @@ export default class Login extends Component {
                 </div>
                 
                 <div className="form-group">
-                <FontAwesomeIcon icon="lock" />
+                {/* <FontAwesomeIcon icon="lock" /> */}
                     <input 
                     type="password" 
                     name="password"

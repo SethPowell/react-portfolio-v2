@@ -1,6 +1,6 @@
 import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import contactPagePicture from "../../../static/assets/images/auth/login.jpg";
+import contactPagePicture from ".././assets/images/auth/login.jpg";
 
 export default function () {
 	return (
@@ -17,19 +17,19 @@ export default function () {
 				<div className="contact-bullet-points">
 					<div className="bullet-point-group">
 						<div className="icon">
-							<FontAwesomeIcon icon="phone" />
+							{/* <FontAwesomeIcon icon="phone" /> */}
 						</div>
 						<div className="text">385-375-4755</div>
 					</div>
 					<div className="bullet-point-group">
 						<div className="icon">
-							<FontAwesomeIcon icon="envelope" />
+							{/* <FontAwesomeIcon icon="envelope" /> */}
 						</div>
 						<div className="text">sethpowellbusiness@gmail.com</div>
 					</div>
 					<div className="bullet-point-group">
 						<div className="icon">
-							<FontAwesomeIcon icon="map-marker-alt" />
+							{/* <FontAwesomeIcon icon="map-marker-alt" /> */}
 						</div>
 						<div className="text">Taylorsville, Utah</div>
 					</div>
